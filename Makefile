@@ -10,24 +10,24 @@
 #                                                                              #
 # **************************************************************************** #
 
-NAME = libft.a
+NAME = libmnmocob.a
 
-SRC = ft_isalpha.c		ft_memalloc.c	ft_memdel.c		ft_putendl.c	\
-	  ft_putstr_fd.c	ft_strcpy.c		ft_striteri.c	ft_strmapi.c	\
-	  ft_strnew.c	  	ft_strsub.c		ft_isascii.c	ft_memccpy.c	\
-	  ft_memmove.c		ft_putendl_fd.c	ft_strcat.c		ft_strdel.c		\
-	  ft_strjoin.c		ft_strncat.c	ft_strnstr.c	ft_strtrim.c	\
-	  ft_atoi.c			ft_isdigit.c	ft_memchr.c		ft_memset.c		\
-	  ft_putnbr.c		ft_strchr.c		ft_strdup.c		ft_strlcat.c	\
-	  ft_strncmp.c		ft_strrchr.c	ft_tolower.c	ft_bzero.c		\
-	  ft_isprint.c		ft_memcmp.c		ft_putchar.c	ft_putnbr_fd.c	\
-	  ft_strclr.c		ft_strequ.c		ft_strlen.c		ft_strncpy.c	\
-	  ft_strsplit.c		ft_toupper.c	ft_isalnum.c	ft_itoa.c		\
-	  ft_memcpy.c		ft_putchar_fd.c	ft_putstr.c		ft_strcmp.c		\
-	  ft_striter.c		ft_strmap.c		ft_strnequ.c	ft_strstr.c		\
-	  ft_lstnew.c 		ft_lstdel.c		ft_lstdelone.c	ft_lstiter.c	\
-	  ft_lstmap.c 		ft_lstadd.c		ft_pow.c		ft_lstget.c		\
-	  ft_lstadd_end.c	ft_lstrch.c		ft_strrev.c
+SRC = mnmocob_isalpha.c		mnmocob_memalloc.c	mnmocob_memdel.c		mnmocob_putendl.c	\
+	  mnmocob_putstr_fd.c	mnmocob_strcpy.c		mnmocob_striteri.c	mnmocob_strmapi.c	\
+	  mnmocob_strnew.c	  	mnmocob_strsub.c		mnmocob_isascii.c	mnmocob_memccpy.c	\
+	  mnmocob_memmove.c		mnmocob_putendl_fd.c	mnmocob_strcat.c		mnmocob_strdel.c		\
+	  mnmocob_strjoin.c		mnmocob_strncat.c	mnmocob_strnstr.c	mnmocob_strtrim.c	\
+	  mnmocob_atoi.c			mnmocob_isdigit.c	mnmocob_memchr.c		mnmocob_memset.c		\
+	  mnmocob_putnbr.c		mnmocob_strchr.c		mnmocob_strdup.c		mnmocob_strlcat.c	\
+	  mnmocob_strncmp.c		mnmocob_strrchr.c	mnmocob_tolower.c	mnmocob_bzero.c		\
+	  mnmocob_isprint.c		mnmocob_memcmp.c		mnmocob_putchar.c	mnmocob_putnbr_fd.c	\
+	  mnmocob_strclr.c		mnmocob_strequ.c		mnmocob_strlen.c		mnmocob_strncpy.c	\
+	  mnmocob_strsplit.c		mnmocob_toupper.c	mnmocob_isalnum.c	mnmocob_itoa.c		\
+	  mnmocob_memcpy.c		mnmocob_putchar_fd.c	mnmocob_putstr.c		mnmocob_strcmp.c		\
+	  mnmocob_striter.c		mnmocob_strmap.c		mnmocob_strnequ.c	mnmocob_strstr.c		\
+	  mnmocob_lstnew.c 		mnmocob_lstdel.c		mnmocob_lstdelone.c	mnmocob_lstiter.c	\
+	  mnmocob_lstmap.c 		mnmocob_lstadd.c		mnmocob_pow.c		mnmocob_lstget.c		\
+	  mnmocob_lstadd_end.c	mnmocob_lstrch.c		mnmocob_strrev.c
 
 OBJ = $(SRC:.c=.o)
 
